@@ -34,11 +34,11 @@ alias gphm='git push heroku master'
 ### web dev
 alias n='npm run start'
 alias d='npm run dev'
-alias m='sudo mongod'
-alias sdm='mongo --eval "db.getSiblingDB(\"admin\").shutdownServer()"'
+alias m='mongod'
 alias p='python manage.py runserver'
 alias gc5='/usr/bin/open -a "/Applications/Google Chrome.app" "http://localhost:5000"'
 alias gc8='/usr/bin/open -a "/Applications/Google Chrome.app" "http://localhost:8000"'
+alias kk='m & d & n & sleep 1; gc5; fg; kill $(jobs -p); sleep 1; clear'
 
 ### latex
 function pl {
