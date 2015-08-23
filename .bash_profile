@@ -1,4 +1,4 @@
-### favorite directories
+### navigation
 alias go='cd "/Users/vahid/Documents/vahid/"'
 alias godesk='cd "/Users/vahid/Desktop"'
 alias godown='cd "/Users/vahid/Downloads"'
@@ -7,6 +7,11 @@ alias gov='cd "/Users/vahid/Documents/vahid/code/vfazel.github.io"'
 alias gom='cd "/Users/vahid/Documents/vahid/code/market-website"'
 alias goh='cd "/Users/vahid/Documents/vahid/code/HMMT-Registration"'
 alias gos='cd "/Users/vahid/Documents/vahid/code/msamentorship"'
+
+### appearance
+export PS1='\e[36m[\W]\e[0m '
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
 
 ### basic commands
 alias n='nano'
