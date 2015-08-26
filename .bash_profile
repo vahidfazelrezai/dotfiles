@@ -16,7 +16,7 @@ export LSCOLORS=GxFxCxDxBxegedabagaced
 ### basic commands
 alias n='nano'
 alias a='atom'
-alias s='subl'
+alias t='subl'
 alias c='cat'
 alias l='ls -la'
 alias o='open .'
@@ -37,13 +37,13 @@ alias gpom='git push origin master'
 alias gphm='git push heroku master'
 
 ### web dev
-alias n='npm run start'
+alias s='npm run start'
 alias d='npm run dev'
 alias m='mongod'
 alias p='python manage.py runserver'
 alias gc5='/usr/bin/open -a "/Applications/Google Chrome.app" "http://localhost:5000"'
 alias gc8='/usr/bin/open -a "/Applications/Google Chrome.app" "http://localhost:8000"'
-alias kk='m & d & n & sleep 1; gc5; fg; kill $(jobs -p); sleep 1; clear'
+alias kk='m & d & s & sleep 1; gc5; fg; kill $(jobs -p); sleep 1; clear'
 
 ### latex
 function pl {
