@@ -11,3 +11,5 @@
     added = green
     changed = yellow
     untracked = red
+[alias]
+	lol = log --graph --oneline --decorate --color --all
