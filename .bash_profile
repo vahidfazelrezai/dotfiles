@@ -39,7 +39,7 @@ alias gphm='git push heroku master'
 
 ### web dev
 alias g='gulp'
-alias gc='/usr/bin/open -a "/Applications/Google Chrome.app"'
+alias gch='/usr/bin/open -a "/Applications/Google Chrome.app"'
 alias gc5='/usr/bin/open -a "/Applications/Google Chrome.app" "http://localhost:5000"'
 alias gc8='/usr/bin/open -a "/Applications/Google Chrome.app" "http://localhost:8000"'
 
