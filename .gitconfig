@@ -2,14 +2,4 @@
 	email = vahidfazelrezai@gmail.com
 [core]
 	excludesfile = ~/.gitexcludes
-	editor = atom --wait
-[color]
-    branch = auto
-    diff = auto
-    status = auto
-[color "status"]
-    added = green
-    changed = yellow
-    untracked = red
-[alias]
-	lol = log --graph --oneline --decorate --color --all
+	editor = vim
