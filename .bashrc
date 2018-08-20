@@ -22,9 +22,9 @@ alias fi='find -name'
 alias dev='tmux a -t dev'
 alias dev2='tmux a -t dev2'
 alias dev3='tmux a -t dev3'
-alias dev='tmux new-session -s dev'
-alias dev2='tmux new-session -s dev2'
-alias dev3='tmux new-session -s dev3'
+alias ndev='tmux new-session -s dev'
+alias ndev2='tmux new-session -s dev2'
+alias ndev3='tmux new-session -s dev3'
  
 ### git
 alias gs='git status'
