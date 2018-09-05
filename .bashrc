@@ -19,9 +19,9 @@ alias gr='grep --color -rnC 3'
 alias fi='find -name'
 
 ### tmux 
-alias dev='tmux a -t dev'
-alias dev2='tmux a -t dev2'
-alias dev3='tmux a -t dev3'
+alias dev='tmux a -d -t dev'
+alias dev2='tmux a -d -t dev2'
+alias dev3='tmux a -d -t dev3'
 alias ndev='tmux new-session -s dev'
 alias ndev2='tmux new-session -s dev2'
 alias ndev3='tmux new-session -s dev3'
