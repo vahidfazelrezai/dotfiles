@@ -5,3 +5,7 @@ set statusline+=\ \-\ col\ %c
 set number
 set cursorline
 nmap ; :
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
