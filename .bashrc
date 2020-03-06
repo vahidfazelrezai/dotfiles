@@ -13,10 +13,13 @@ alias c='cd'
 alias v='vim'
 alias l='ls -lah'
 alias ls='ls -h'
-alias xx='exit'
+alias xx='logout'
 alias cl='clear'
 alias gr='grep --color -rnC 3'
-alias fi='find -name'
+alias fi='find . -type f -name'
+ef() {
+  vim `fi "$1*"`
+}
 
 ### tmux 
 alias dev='tmux a -d -t dev'
@@ -34,6 +37,7 @@ alias gb='git branch'
 alias gk='git checkout'
 alias gd='git diff --name-only'
 alias gl="git log -10 --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias gcp='git cherry-pick'
 alias gpom='git push origin master'
 
 ### latex
