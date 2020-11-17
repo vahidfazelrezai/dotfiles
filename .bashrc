@@ -11,11 +11,12 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias c='cd'
 alias v='vim'
+alias o='open'
 alias l='ls -lah'
 alias ls='ls -h'
 alias xx='logout'
 alias cl='clear'
-alias gr='grep --color -rnC 3'
+alias gr='grep --color -rnC 3 .'
 alias fi='find . -type f -name'
 ef() {
   vim `fi "$1*"`
