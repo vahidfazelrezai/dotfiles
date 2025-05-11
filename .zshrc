@@ -1,5 +1,5 @@
-alias eb='v ~/.bashrc' 
-alias sb='source ~/.bashrc'
+alias ez='v ~/.zshrc' 
+alias sz='source ~/.zshrc'
 
 alias ..='cd ..'
 alias ...='cd ../..'
