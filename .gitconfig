@@ -3,3 +3,4 @@
 [core]
 	excludesfile = ~/.gitexcludes
 	editor = vim
+  pager = cat
